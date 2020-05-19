@@ -9,11 +9,11 @@ import traceback
 from vk_api.bot_longpoll import VkBotLongPoll, VkBotEventType
 
 
-vk_session = vk_api.VkApi(token='Токен Сообщества')
+vk_session = vk_api.VkApi(token='34ee887965139b32b21a5a090e887e085d96af9df390b77a63860cb6726f1c5b726648aa704baac110d89')
 vk = vk_session.get_api()
 print('Bot started!')
 def pizda():
-    longpoll = VkBotLongPoll(vk_session,     'Цифровой ид Сообщества')
+    longpoll = VkBotLongPoll(vk_session,     '195512323')
     for event in longpoll.listen():
         if event.type == VkBotEventType.MESSAGE_NEW:
             if event.from_chat:
