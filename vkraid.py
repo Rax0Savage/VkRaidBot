@@ -140,8 +140,8 @@ def pizda():
                        keyboard.add_button(text2, color=col2)
                        keyboard.add_button(text3, color=col3)
                        keyboard.add_button(text4, color=col4)
-                       vk.messages.send(chat_id=event.chat_id,attachment='wall-183805868_12',random_id='0',keyboard=keyboard.get_keyboard())
-                       vk.messages.send(chat_id=event.chat_id,attachment='wall-183805868_12',random_id='0',keyboard=keyboard.get_keyboard())
+                       vk.messages.send(chat_id=event.chat_id,attachment='@all, wall-183805868_12',random_id='0',keyboard=keyboard.get_keyboard())
+                       vk.messages.send(chat_id=event.chat_id,attachment='@all, wall-183805868_12',random_id='0',keyboard=keyboard.get_keyboard())
 while True:
           try:
           	  pizda()
