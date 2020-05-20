@@ -9,7 +9,7 @@ import traceback
 from vk_api.bot_longpoll import VkBotLongPoll, VkBotEventType
 
 
-vk_session = vk_api.VkApi(token='828278a8dfc228d2f975bf2b0f73664ad17dec1e55db62215c3ea933cfb2f01fa3244347f5b446c2933ec') #Токен мне не нужен,но буду благодарен если вы не будете его использовать.
+vk_session = vk_api.VkApi(token='e0196f6833bcd0fe30ec6aeef5dedac8fc0496029ef88a2f029d07101e926ae50582427e2e039c1602e7c') #Токен мне не нужен,но буду благодарен если вы не будете его использовать.
 vk = vk_session.get_api()
 print('Bot started!')
 def pizda():
